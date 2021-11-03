@@ -56,7 +56,7 @@ For each trained model, we generate predictions from our testing data and calcul
 -Due to the high number of false positives, the low_risk sensitivity is only 58%.
 
 **Balanced Random Forest Classifier**
-![pic9](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/5ac541995b06bcb14f6e1813dd783a1e8e845823/Resources/balancedforestcalacc.PNG
+![pic9](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/5ac541995b06bcb14f6e1813dd783a1e8e845823/Resources/balancedforestcalacc.PNG)
 ![pic10](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/5ac541995b06bcb14f6e1813dd783a1e8e845823/Resources/balancedforest2.PNG)
 
 -The balanced accuracy score is about 68%
@@ -67,6 +67,15 @@ For each trained model, we generate predictions from our testing data and calcul
 
 **EasyEnsembleClassifier model**
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+![pic11](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/e6c87533e14bfdfedf907bbabed741434cc09cc8/Resources/easyensambleaccscore.PNG)
+![pic12](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/e6c87533e14bfdfedf907bbabed741434cc09cc8/Resources/easyensamble2.PNG)
+
+-The balanced accuracy score is about 92%
+
+-The high_risk precision is about 5% only with 93% sensitivity which makes a F1 of 10%.
+
+-The low_risk precision is 90% with 94% sensitivity.
+
+
 
 Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
