@@ -20,6 +20,7 @@ For each trained model, we generate predictions from our testing data and calcul
 -Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 63%.
 
 **SMOTE Oversampling**
+
 ![pic3](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/96d031bf2edfeccbbb5c028f35423bf76e6b7cca/Resources/smotebalancedacc.PNG)
 
 ![pic4](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/96d031bf2edfeccbbb5c028f35423bf76e6b7cca/Resources/smote2.PNG)
@@ -56,6 +57,7 @@ For each trained model, we generate predictions from our testing data and calcul
 -Due to the high number of false positives, the low_risk sensitivity is only 58%.
 
 **Balanced Random Forest Classifier**
+
 ![pic9](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/5ac541995b06bcb14f6e1813dd783a1e8e845823/Resources/balancedforestcalacc.PNG)
 ![pic10](https://github.com/Klubbers0/Credit_Risk_Analysis/blob/5ac541995b06bcb14f6e1813dd783a1e8e845823/Resources/balancedforest2.PNG)
 
@@ -78,4 +80,8 @@ For each trained model, we generate predictions from our testing data and calcul
 
 
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+##Summary
+
+All of the models that were used to preform the credit risk analysis showed weak precision in determining if credit risk is high. The Ensemble models showed the best metrics, and improvements specifically on the sensitvity of the high risk credits. It also shows a recall of 92%, detecting almost all high risk credit.  This model still had low precision, and a lot of low risk credits are falsely detecte as high risk. This would penalize the bank as they would be missing out on a lot of good creditors. For this reason I would recommend the bank to use any of these models to predict credit risk. 
+
+Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
